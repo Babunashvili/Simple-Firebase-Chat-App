@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Firebase Get Started</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/bpg-arial/css/bpg-arial.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+  <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDAHwJhdqQW8S-RK1LSBENPIPYWlYiev_o",
+    authDomain: "myawesomeproject-62763.firebaseapp.com",
+    databaseURL: "https://myawesomeproject-62763.firebaseio.com",
+    storageBucket: "myawesomeproject-62763.appspot.com",
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/app.js"></script>
+</head>
+<body>
+  <div class="msg-wrapper">
+    <div class="mess">
+      <ul id="msg"></ul>
+    </div>
+    <input type="text" class="name" placeholder='სახელი' required>
+    <textarea name="message" class="message" cols="10" rows="5" placeholder="შეტყობინება" required></textarea>
+    <button class='add'>გაგზავნა</button>
+  </div>
+  <p>Created By David Babunashvli.</p>
+
+
+</body>
+</html>

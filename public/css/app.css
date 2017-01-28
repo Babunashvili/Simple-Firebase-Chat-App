@@ -1,0 +1,82 @@
+body{
+	margin:0;
+	padding:0;
+	background: #F5F5F5;
+	font-family: "BPG Arial", sans-serif;
+}
+.msg-wrapper{
+	width:300px;
+	margin:20px auto;
+	background: #FFFFFF;
+	box-shadow: 0 0 4px rgba(0,0,0,.2);
+	border-radius: 2px;
+	padding: 15px;
+}
+
+.msg-wrapper .main-title{
+	width:100%;
+	text-align: center;
+	font-size: 18px;
+	padding:15px;
+}
+
+.msg-wrapper .mess{
+	height: 300px;
+	overflow-y: auto;
+	margin:5px 0px;
+	padding:0 10px;
+	margin-left: -5px;
+	margin-right: -5px;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0,0.1);
+}
+
+.msg-wrapper  #msg{
+	list-style-type: none;
+	padding:0px;
+}
+
+.msg-wrapper  #msg li{
+	background: #F4F4F4;
+	border-radius: 10px;
+	padding:10px;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+.msg-wrapper  .name{
+	width: calc(100% - 10px);
+	padding:10px 5px;
+	margin:5px 0;
+	font-family: "BPG Arial", sans-serif;
+}
+.msg-wrapper .message{
+	width: calc(100% - 10px);
+	padding:10px 5px;
+	margin:5px 0;
+	font-family: "BPG Arial", sans-serif;
+}
+
+.msg-wrapper .add{
+	width: 100%;
+	padding:12px 8px;
+	text-align: center;
+	cursor: pointer;
+	background: #8E60E2;
+	color: #fff;
+	font-family: "BPG Arial", sans-serif;
+	border: none;
+}
+
+p{
+	text-align: center;
+	font-size: 13px;
+	margin-top: -5px;
+	color: #B9B4B4;
+}
+
+
+@media(max-width:600px){
+	.msg-wrapper{
+		width:90%;
+	}
+}
